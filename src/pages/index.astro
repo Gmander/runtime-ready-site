@@ -39,8 +39,12 @@ import Card from '../components/Card.astro';
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
 		<ul role="list" class="link-card-grid">
+
+			<!-- button that takes you to the test page at /Test.astro -->
+			<button onclick="window.location.href='/src/pages/Test/test.astro'">Go to Test Page</button>
+			<button onclick="window.location.href='/src/pages/Test/test.astro'">Go to Test Page 2</button>
 			<Card
-				href="https://docs.astro.build/"
+				href="https://astro.build/documentation/"
 				title="Documentation"
 				body="Learn how Astro works and explore the official API docs."
 			/>
